@@ -1,6 +1,6 @@
 # IdeaSpark – Mini Idea Pitching Board
 
-**Live URL:** [https://ideaspark-demo.vercel.app](https://ideaspark-demo.vercel.app) *(Replace with actual deployed link)*
+**Live URL:** [https://cashflowcrew-assignment-cyan.vercel.app](https://cashflowcrew-assignment-cyan.vercel.app)
 
 IdeaSpark is a platform where users can share their project ideas, discover what others are building, and upvote their favorites. Built as part of the CashFlowCrew Engineering Assessment.
 
@@ -8,7 +8,7 @@ IdeaSpark is a platform where users can share their project ideas, discover what
 - **Frontend**: React (Vite), Tailwind CSS, Lucide Icons, Axios, date-fns
 - **Backend**: Node.js, Express.js, Mongoose
 - **Database**: MongoDB
-- **Tooling**: Concurrently (for running client & server simultaneously)
+
 
 ## ✨ Bonus Features Implemented
 1. **Server-Side Pagination** with intuitive client-side UI controls.
@@ -52,4 +52,4 @@ The application will be available at:
 - Backend API: `http://localhost:5000`
 
 ---
-*Developed by [Your Name]*
+*Developed by Vikas Bhatt*
