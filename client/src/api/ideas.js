@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api' // uses proxy in vite.config.js for dev
+  baseURL: 'https://ideaspark-backend.onrender.com'
 });
 
 export const fetchIdeas = async (page = 1, limit = 10, search = '', sort = 'newest') => {
