@@ -9,8 +9,17 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'],
+  credentials: true
+}));
 app.use(express.json());
+
+// Root test route
+app.get('/', (req, res) => {
+  res.json({ message: 'IdeaSpark API is running!' });
+});
 
 // Routes
 const ideas = require('./routes/ideas');
