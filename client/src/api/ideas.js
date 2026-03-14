@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://ideaspark-backend.onrender.com'
+  baseURL: 'https://ideaspark-backend.onrender.com/api'
 });
 
 export const fetchIdeas = async (page = 1, limit = 10, search = '', sort = 'newest') => {
